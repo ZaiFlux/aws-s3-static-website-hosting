@@ -21,7 +21,7 @@ The goal is to understand how AWS S3 can be used as a low-cost, scalable solutio
 
 ---
 
-### 1. Create S3 Bucket
+### 1. Create S3 Bucket🪣
 
 Created a bucket named:
 
