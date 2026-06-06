@@ -6,12 +6,14 @@ This project demonstrates how to deploy a static website using Amazon S3 (Simple
 The goal is to understand how AWS S3 can be used as a low-cost, scalable solution for hosting static websites.
 
 🏗️ Architecture
+```mermaid
 flowchart TD
-    A[User Browser] --> B[S3 Website Endpoint]
-    B --> C[S3 Bucket]
+A[User Browser] --> B[S3 Website Endpoint]
+B --> C[S3 Bucket]
 
-    C --> D[index.html]
-    C --> E[style.css]
+C --> D[index.html]
+C --> E[style.css]
+```
 📂 Project Files
 index.html → Main homepage of the website
 style.css → Styling for the website layout and design
